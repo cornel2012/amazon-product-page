@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;    
+}
+
+a {
+    color: #007185;
+}
+
+.breandcrumbs {
+    font-size: 12px;
+    padding: 20px 20px 0ex;
+}
+
+.breandcrumbs a {
+    color: #565959;
+    text-decoration: none;
+}
+
+.breandcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+    /* flex-direction: column; */
+}
+
+.main-img {
+    display: flex;
+    width: 30%;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.ratings-img {
+    margin: 5px 0;    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;    
+    padding-left: 30px;
+    width: 70%;
+}
+
+.main-content h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.ratings-img {
+    max-width: 100px;
+}
